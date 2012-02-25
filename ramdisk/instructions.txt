@@ -1,0 +1,58 @@
+[BATCH SCRIPTS] SWTOR RAMDISK ALL-IN-ONE
+
+To be certain that the script will be executed properly, run the 
+batch scripts as administrator. (Rightclick on the batchfile and 
+select "Run as administrator").
+
+This "ALL-IN-ONE SWTOR RAMDISK" batch script can do the following;
+
+  - Setup your SWTOR to use a ramdisk.
+  - Remove the ramdisk setup.
+  - Mount the ramdrive (separate script available).
+  - Dismount the ramdrive (to free up memory between game sessions).
+
+Warning for those who add asset files to the ramdisk:
+The client can return an error when it wants to patch, as it cannot 
+patch while there is a assetfile being linked to another location. 
+To be able to patch remove the ramdisk setup first, patch the game, 
+and rerun the ramdisk setup again.
+
+Creating batchscript
+
+  1. Copy the ALL-IN-ONE batchscript you want to use.
+  2. Open notepad.
+  3. Paste the copied batchscript into notepad.
+  4. Save as with the name; anyname.bat (.bat is important!).
+  5. Press save.
+  6. Batchscript created (check if the icon is not a textfile anymore).
+  7. Do the same for the MOUNT batchscrip (if you wish to use it).
+
+Setup SWTOR for ramdisk
+
+  1. Be able to run SWTOR without a ramdisk.
+  2. Have Imdisk installed on your machine
+  3. Run the created/selected batchscript as administrator.
+  4. Once in the menu press 's' on your keyboard to setup.
+  5. Start the game.
+
+What to do on a reboot / dismount
+
+  - Use the MOUNT batchscript (can be used as computer startup script):
+    1. Run the MOUNT batchscript as administrator.
+    2. Start the game
+
+  - Use the ALL-IN-ONE batchscript (human interaction is needed):
+    1. Run the ALL-IN-ONE script as administrator.
+    2. Once in the menu press 'm' on your keyboard to mount the ramdrive.
+    3. Start the game.
+
+Dismount ramdrive (to free up memory)
+
+  1. Run the ALL-IN-ONE batchscript as administrator.
+  2. Once in the menu press 'd' on your keyboard to dismount the ramdrive.
+
+Remove the ramdisk setup
+
+  1. Run the ALL-IN-ONE batchscript as administrator.
+  2. Once in the menu press 'r' on your keyboard to remove the ramdisk setup.
+  3. Uninstall Imdisk if preferred.
