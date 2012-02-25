@@ -1,4 +1,3 @@
-
 tortools
 ========
 
@@ -13,4 +12,4 @@ reads and writes.
 
 It includes 2 batch scripts, an instuctions text file and a readme.
 
-Credit goes to Ocmer_ and Lemon_King for the instructions and the batch scripts.
+Credit goes to Ocmer_ and Lemon_King from the SWTOR Forums for the instructions and the batch scripts.
