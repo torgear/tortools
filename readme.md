@@ -4,6 +4,13 @@ tortools
 This project is an attempt to document and centralize scripts for helping to
 resolve performance issues that some players experience when playing SWTOR.
 
+General Discussion
+------------------
+
+Here are some links to threads on the official forums discussing and summerazing the issues:
+
+ * http://www.swtor.com/community/showthread.php?t=317352
+
 Ramdisk
 -------
 
